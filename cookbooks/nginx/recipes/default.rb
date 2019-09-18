@@ -9,5 +9,5 @@ package 'nginx' do
 
 	action :install
 
- only_if { node.chef_environment=="_defalut" }
+ only_if { node.chef_environment=="uat" }
 end
